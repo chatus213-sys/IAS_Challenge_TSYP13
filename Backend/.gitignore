@@ -1,0 +1,40 @@
+# ----- Python -----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# ----- Databases -----
+db/*.db
+*.sqlite
+*.sqlite3
+
+# ----- Environments -----
+.env
+.venv/
+venv/
+
+# ----- OS Files -----
+# macOS & Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ----- IDEs -----
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ----- MQTT Testing Files -----
+*.json
+
+# ----- Temporary -----
+tmp/
+temp/
