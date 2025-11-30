@@ -56,13 +56,13 @@ float currentPressure = 0.0;
 // =========================
 // MQTT CONFIG
 // =========================
-const char* ssid        = "OPPO Reno5";
-const char* password    = "1234567890";
+const char* ssid        = "";
+const char* password    = "";
 
 const char* mqtt_server = "broker.hivemq.com";
 const int   mqtt_port   = 1883;
-const char* mqtt_topic  = "omar/factory/sensors";
-const char* mqtt_control_topic = "omar/factory/ventilation";
+const char* mqtt_topic  = "";
+const char* mqtt_control_topic = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
